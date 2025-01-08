@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+    <head>
+        <title>Titles</title>
+        <style>
+            .radio{
+                margin-left: 130px;
+                margin-top: 25px;
+
+
+            }
+            .TD-INPUT{
+               border-color: gold;
+            }
+            #order{
+                color: white;
+            }
+        </style>
+        
+    </head>
+    <body>
+        <form >
+        <fieldset style="width: min-content; margin: auto;border: none;background-color: #99c1e1;">
+            <h1>Online Order Form</h1>
+            <h6>Please fill in the order form below with the items you want to purchase from our store.Thank you for choosing our services!</h6>
+            <canvas id="myCanvas" width="1000%" height="1PX"></canvas>
+            <fieldset style="border: 0;"></fieldset>
+            <label >Preferred Product*</label>
+            <input type="radio" name="RadioGroup" value="#Product 1" ><label>#Product1</label><br>
+            <input type="radio" name="RadioGroup" value="#Product 2" class="radio"><label>#Product2</label><br>
+            <input type="radio" name="RadioGroup" value="#Product 3" class="radio"><label>#Product3</label><br>
+            <input type="radio" name="RadioGroup" value="#Product 4" class="radio"><label>#Product4</label><br>
+            <input type="radio" name="RadioGroup" value="#Product 5" class="radio"><label>#Product5</label><br>
+            <input type="radio" name="RadioGroup" value="#Product 6" class="radio"><label>#Product6</label><br>
+            <h3>Shipping&billing details</h3><br>
+            <table >
+                <tr>
+                    <td style="padding: 10px;"><label >Quantity*</label></td>
+                    <td><input type="number"  style="width: 40px;height: 35px;"></td>                        <td></td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px;"><label >Delivery Date*</label></td>
+                    <td colspan="2" style="width: fit-content;height: fit-content;"><input type="date" ></td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px;"><label >Delivery Address*</label></td>
+                    <td ><input type="text"  placeholder="Street Address"></td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px;"></td>
+                    <td><input type="text"  placeholder="Street Address"></td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px;"></td>
+                    <td><input type="text" style="width: 83px;" placeholder="City">
+                    <input type="text" style="width: 83px;" placeholder="Region"></td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px;"></td>
+                    <td><input type="text" style="width: 83px;" placeholder="Postal/Zip">
+                        <input list="country" style="width: 83px;" >
+                        <datalist id="country">
+                          <option value="India">
+                          <option value="Canada">
+                          <option value="Japan">
+                          <option value="Bali">
+                          <option value="America">
+                        </datalist></td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px;">Name*</td>
+                    <td><input type="text" style="width: 83px;" placeholder="First">
+                    <input type="text" style="width: 83px;" placeholder="Last"></td>
+                </tr>
+                    <tr>
+                        <td style="padding: 10px;">Phone*</td>
+                        <td><input type="tel" placeholder="###-###-###"></td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 10px;">Email*</td>
+                        <td><input type="email"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><input type="checkbox" ><label>i agree to the terms of service.</label></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><input type="submit" value="Order Now" style="width: 150px;height: 40px;border: none;background-color: cadetblue; border-radius: 50px;" id="order"></td>
+                    </tr>
+
+                </table>
+            </fieldset>
+        </fieldset>
+        </form>
+       
+        <script>
+            const canvas = document.getElementById("myCanvas");
+            const ctx = canvas.getContext("2d");
+            ctx.beginPath();
+            ctx.moveTo(0, 0);
+            ctx.lineTo(1000, 0);
+            ctx.stroke();
+        </script>
+    </body>
+
+
+</html>
