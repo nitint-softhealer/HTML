@@ -1,0 +1,157 @@
+.maindiv{
+    padding-block-start: 10px;
+}
+thead{
+    position: fixed;
+    background-color: black;
+    color: white;
+}
+th{
+    background-color: black;
+}
+
+.table tr:nth-child(odd){
+    width: 80px;
+    background-color:#cccccc;
+}
+.table tr:hover{
+    background-color: #888888;
+}
+.table td{
+    width: 80px;
+}
+.ul1{
+    position:fixed;
+    display: inline-table;
+    background-color: black;
+    list-style:none;
+    margin: 0px;
+    padding: 0;
+    width: 100%;
+    list-style-type: none;
+}
+.ul1 li{
+    display: inline-flex;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 20px;
+}
+.ul1 li:hover{
+    background-color: #cccccc;
+}
+#p_id{
+    padding: 15px;
+    background-color: rgb(0, 255, 0);
+}
+.p1
+{
+    opacity: 1;   
+}
+.p2
+{
+    opacity: 0.8;   
+}
+.p3
+{
+    opacity: 0.6;   
+}
+.p4
+{
+    opacity: 0.4;   
+}
+.ul2{
+    list-style-type: square;
+}
+a:link{
+    color: gray;
+}
+a:hover{
+    color: black;
+    text-decoration: none;
+}
+a:focus
+{
+    color: rgb(0, 255, 0);
+}
+
+.Content{
+    background: linear-gradient(black,lightgray);
+    border: 2px solid;
+    outline-color: green;
+    outline-offset: 20px;
+
+}
+.Content p{
+    word-spacing: 1px;
+    outline-width: 5px;
+    outline-color: green;
+    color: black;
+    font-size: xx-large;
+    font-weight: bold;
+    text-shadow: color(red);
+}
+
+.buttonsdesign{
+   margin: 200px;
+   padding: 50px;
+   border-style: solid dotted dashed double;
+   border-color: red green blue black;
+}
+.banner{
+    background-color: lightgray;
+    border:1px solid;
+    color: black;
+    text-align: center;
+    height: 500PX;
+    align-content: center;
+}
+p{
+    text-align: justify;
+}
+.buttons{
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10PX;
+}
+.divlast{
+    text-align: center;
+    display: inline-flex;
+    
+}
+
+.div1{
+    margin: 10px;
+    height: 80px;
+    width: 30px;
+    background-color: skyblue;
+    text-align: center;
+}
+.div2{
+    margin: 10px;
+    height: 30px;
+    width: 30px;
+    background-color: skyblue;
+    text-align: center;
+}
+.div3{
+    margin: 10px;
+    margin-top: 20px;
+    height: 30px;
+    width: 30px;
+    background-color: skyblue;
+    text-align: center;
+}
+.div4{
+    margin: 10px;
+    margin-top: 30px;
+    height: 30px;
+    width: 30px;
+    background-color: skyblue;
+    text-align: center;
+}
+.last a:active{
+    color: green;
+}
