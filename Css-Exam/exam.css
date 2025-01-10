@@ -89,7 +89,7 @@ a:focus
     color: black;
     font-size: xx-large;
     font-weight: bold;
-    text-shadow: color(red);
+    text-shadow: 2px 2px white;
 }
 
 .buttonsdesign{
