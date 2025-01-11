@@ -1,0 +1,23 @@
+p.a {
+    text-align-last: right;
+  }
+  
+  p.b {
+    text-align-last: center;
+  }
+  
+  p.c {
+    text-align-last: justify;
+  }
+
+  p.uppercase {
+    text-transform: uppercase;
+  }
+  
+  p.lowercase {
+    text-transform: lowercase;
+  }
+  
+  p.capitalize {
+    text-transform: capitalize;
+  }

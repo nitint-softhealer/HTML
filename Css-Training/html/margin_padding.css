@@ -1,0 +1,32 @@
+.div1{
+    border: 1px solid black;
+    /* margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px; */
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    background-color: lightblue;
+}
+.div2{
+    text-align: center;
+    border: 1px solid rgb(56, 53, 53);
+    margin: auto;
+    width: 300px;
+    padding: auto;
+    background-color: rgb(6, 176, 233);
+}
+
+p.padding {
+    padding-left: 2cm;
+  }
+  p.padding2 {
+    padding-left: 50%;
+  }
+
+.image1:hover{
+    width: 500px;
+    height: 450px;
+    transition: 10s;
+}

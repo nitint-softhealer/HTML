@@ -1,0 +1,6 @@
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+#customers th{
+    background-color: green;
+    color: white;
+}
+#customers tr:hover {background-color: #ddd;}

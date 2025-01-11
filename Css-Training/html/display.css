@@ -1,0 +1,11 @@
+.divdisplay{
+    display: flex;
+    margin: 10px;
+}
+.divdisplay>div{
+    margin: 10px;
+}
+.divdisplay2>div{
+    display: inline;
+    margin: 8px;
+}

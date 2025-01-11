@@ -1,0 +1,18 @@
+p{
+    color: red;
+    background-color: white;
+}
+h2,h3,h4{
+    text-align: center;
+    color: red;
+}
+pre{
+    
+    border: 2px dashed;
+    border-color:rgb(255, 0, 0);
+    
+}
+h1{
+    border: 1px outset;
+    border-color:cadetblue;
+}
