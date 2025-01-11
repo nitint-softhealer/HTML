@@ -2,7 +2,8 @@
     padding-block-start: 10px;
 }
 thead{
-    position: fixed;
+    position: sticky; 
+    top: 100px;
     background-color: black;
     color: white;
 }
@@ -29,6 +30,7 @@ th{
     padding: 0;
     width: 100%;
     list-style-type: none;
+    z-index: 1;
 }
 .ul1 li{
     display: inline-flex;
@@ -90,6 +92,7 @@ a:focus
     font-size: xx-large;
     font-weight: bold;
     text-shadow: 2px 2px white;
+    inline-size: 50px;
 }
 
 .buttonsdesign{
@@ -154,4 +157,10 @@ p{
 }
 .last a:active{
     color: green;
+}
+pre a::before{
+    color: greenyellow;
+}
+pre a:active{
+    color: red;
 }
