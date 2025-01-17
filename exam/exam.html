@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="bootstrap-4.6.2-dist/css/bootstrap.min.css">
+        <script src="bootstrap-4.6.2-dist/js/bootstrap.bundle.min.js"></script>
+        <script src="code.jquery.com_jquery-3.7.0.min.js"></script>
+        <script src="popper.js"></script>
+        <script src="bootstrap-4.6.2-dist/js/bootstrap.bundle.js"></script>
+        <script src="bootstrap-4.6.2-dist/js/bootstrap.bundle.js.map"></script>
+        <script src="bootstrap-4.6.2-dist/js/bootstrap.bundle.min.js"></script>
+        <script src="bootstrap-4.6.2-dist/js/bootstrap.bundle.min.js.map"></script>
+        <script src="bootstrap-4.6.2-dist/js/bootstrap.js"></script>
+        <script src="bootstrap-4.6.2-dist/js/bootstrap.js.map"></script>
+        <script src="bootstrap-4.6.2-dist/js/bootstrap.min.js"></script>
+        <script src="bootstrap-4.6.2-dist/js/bootstrap.min.js.map"></script>
+    </head>
+    <body>
+    <!-- 1. Implement below attached design. four cols on desktop, two cols in tablet view, and for mobile view only one col should be visible in a single row. -->
+    <div class="container-fluid">
+        <div class="row">
+           <div class="col">
+                <div class="card">
+                    <img src="img/man.png" class="card-img-top">
+                    <div class="card-body">
+                        <div class="card-title">Jane Doe</div>
+                        <p>some example text example text.Jane doe is an architect and engineer</p>
+                        <button class="btn btn-primary text-white">see Profile</button> 
+                    </div>
+                </div>
+           </div>
+           <div class="col">
+            <div class="card">
+                <div class="card-body">
+                    <div class="card-title">Jane Doe</div>
+                    <p>some example text example text.Jane doe is an architect and engineer</p>
+                    <button class="btn btn-primary text-white">see Profile</button> 
+                </div>
+                <img src="img/female.png" class="card-img-bottom">
+            </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="img/man.png" class="card-img-top">
+                    <div class="card-body">
+                        <div class="card-title">Jane Doe</div>
+                        <p>some example text example text.Jane doe is an architect and engineer</p>
+                        <button class="btn btn-primary text-white">see Profile</button> 
+                    </div>
+                </div>
+           </div>
+           <div class="col">
+            <div class="card">
+                <div class="card-body">
+                    <div class="card-title">Jane Doe</div>
+                    <p>some example text example text.Jane doe is an architect and engineer</p>
+                    <button class="btn btn-primary text-white">see Profile</button> 
+                </div>
+                <img src="img/female.png" class="card-img-bottom">
+            </div>
+       </div>
+        </div>
+    </div>
+
+    <!-- 2. Write five lines with the text "Lorem ipsum dolor sit amet" and the background color should be blue, red, yellow, green, and black respectively with the white text color. -->
+
+    <div class="container border my-1 p-1">
+        <p class="bg-primary p-1 m-1 text-white">Lorem ipsum dolor sit amet</p>
+        <p class="bg-danger p-1 m-1 text-white">Lorem ipsum dolor sit amet</p>
+        <p class="bg-warning p-1 m-1 text-white">Lorem ipsum dolor sit amet</p>
+        <p class="bg-success p-1 m-1 text-white">Lorem ipsum dolor sit amet</p>
+        <p class="bg-dark p-1 m-1 text-white">Lorem ipsum dolor sit amet</p>
+    </div>
+
+    <!-- 3. implement one table with odd/even row using class only. -->
+    <div class="container border my-1 p-1">
+        <table class="table border table-striped">
+            <thead>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Email</th>
+            </thead>
+            <tr>
+                <td>john</td>
+                <td>doe</td>
+                <td>john@example.com</td>
+            </tr>
+            <tr>
+                <td>marry</td>
+                <td>moe</td>
+                <td>moe@example.com</td>
+            </tr>
+            <tr>
+                <td>july</td>
+                <td>dooley</td>
+                <td>july@example.com</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- 4. implement the below design using class only. -->
+
+    <div class="container my-1 border p-1">
+        <div class="alert alert-success" role="alert">
+            <strong>Success!</strong> you should <a class="alert-link" href="#">read this message</a>
+        </div>
+        <div class="alert alert-info" role="alert">
+            <strong>Info!</strong> you should <a class="alert-link" href="#">read this message</a>
+        </div>
+        <div class="alert alert-warning" role="alert">
+            <strong>Success!</strong> you should <a class="alert-link" href="#">read this message</a>
+        </div>
+        <div class="alert alert-danger" role="alert">
+            <strong>Danger!</strong> you should <a class="alert-link" href="#">read this message</a>
+        </div>
+        <div class="alert alert-primary" role="alert">
+            <strong>Primary!</strong> you should <a class="alert-link" href="#">read this message</a>
+        </div>
+    </div>
+
+    <!-- 5. implement the below design button group with dropdown using class only. -->
+
+        <div class="container p-1 my-1 border">
+            <div class="btn-group">
+                <button type="button" class="btn btn-primary">Apple</button>
+                <button type="button" class="btn btn-success">Samsung</button>
+                <button type="button" class="btn btn-warning dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">
+                    Sony
+                </button>
+                <div class="dropdown-menu">
+                    <div class="dropdown-item">
+                        <p href="#" class="dropdown">Tablet</p>
+                    </div>
+                    <div class="dropdown-item">
+                        
+                        <p href="#" class="dropdown">Smartphone</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 6. implement the below badge design using class only. -->
+
+        <div class="container border my-1 p-1">
+            <div class="badge bg-secondary badge-pill text-white"><span>Secondary</span></div>
+            <div class="badge bg-info badge-pill text-white"><span>Info</span></div>
+            <div class="badge bg-light badge-pill"><span>Light</span></div>
+            <button class="btn btn-primary">Messages
+                <div class="badge bg-light text-dark">
+                    <span>4</span>
+                </div>
+            </button>
+            <button class="btn btn-danger">Messages
+                <div class="badge bg-light text-dark">
+                    <span>7</span>
+                </div>
+            </button>
+        </div>
+
+        <!-- 7. implement the below pagination, spinner, nav, progress bar, and tooltip. -->
+
+        <div class="container my-1 border p-1">
+            <div class="progress">
+                <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width: 50%;">50%
+                </div>
+            </div>
+            <div class="spinner spinner-grow bg-info"></div>
+
+            <div class="pagination">
+                <div class="page-item">
+                    <a href="#" class="page-link">Previous</a>
+                </div>
+                <div class="page-item">
+                    <a href="#" class="page-link">1</a>
+                </div>
+                <div class="page-item active">
+                    <a href="#" class="page-link">2</a>
+                </div>
+                <div class="page-item">
+                    <a href="#" class="page-link">3</a>
+                </div>
+                <div class="page-item">
+                    <a href="#" class="page-link">Next</a>
+                </div>
+            </div>
+
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">Link</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link disabled">Disabled</a>
+                </li>
+            </ul>
+
+            <a href="#" data-toggle="tooltip"title="Hooray!">
+                Top
+            </a>
+        </div>
+
+        <!-- 8. implement one checkbox, one radio button, and one selection functionality in Form.-->
+
+        <div class="container border my-1 p-1">
+            <div class="form-check">
+                <label class="form-check-label">
+                  <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue" >
+                  Gaming
+                </label>
+              </div>
+              <div class="form-check">
+                  <label class="form-check-label">
+                  <input type="radio" class="form-check-input" name="" id="" value="checkedValue">
+                  Male
+                </label>
+              </div>
+              <div class="form-group">
+                <label for="citys">city</label>
+                <select class="form-control"id="citys">
+                  <option>ksd</option>
+                  <option>rjt</option>
+                  <option>amd</option>
+                </select>
+              </div>
+        </div>
+
+        <!-- 9. implement one modal which should open on click of the open modal button. -->
+        <div class="container my-1 p-1">
+            <div class="toogle">
+                <button class="btn btn-danger toggle" type="button" data-toggle="button" target="#myt">Model</button>
+                <div id="myt"><span>hello</span></div>
+            </div>
+        </div>
+    </body>
+</html>
